@@ -1,0 +1,56 @@
+.sidebar-root {
+  background: var(--surface);
+  min-width: 200px;
+  max-width: 240px;
+  padding: 2rem 1.2rem 1.2rem 1.5rem;
+  border-radius: 1rem;
+  margin-right: 1.5rem;
+  margin-top: 0.6rem;
+  box-shadow: 0 2px 16px #4a90e215;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.sidebar-section {
+  margin-bottom: 1.4rem;
+}
+
+.moves-remaining {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  background: var(--move-bg);
+  border-radius: 12px;
+  padding: 0.5rem 0.8rem;
+  margin-bottom: 1.25rem;
+  color: var(--primary-dark);
+  font-weight: bold;
+}
+
+.current-score {
+  font-size: 2rem;
+  color: var(--score);
+  background: #f8f0ff;
+  border-radius: 10px;
+  padding: 0.4rem 0.7rem 0.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 4px #b36ef630;
+}
+
+.progress-bar {
+  height: 1.1rem;
+  border-radius: 6px;
+  background: #e6ebfb;
+  overflow: hidden;
+  margin-top: 0.7rem;
+}
+.progress-bar-inner {
+  height: 100%;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  transition: width 0.38s cubic-bezier(.6,.2,.13,1.1);
+}

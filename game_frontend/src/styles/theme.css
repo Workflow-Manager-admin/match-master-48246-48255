@@ -1,0 +1,27 @@
+:root {
+  --primary: #4a90e2;
+  --primary-dark: #2767b0;
+  --secondary: #f5a623;
+  --accent: #d0021b;
+  --background: #f5faff;
+  --surface: #fff;
+  --text: #213547;
+  --header-height: 62px;
+  --footer-height: 46px;
+
+  --tile-red: #d0021b;
+  --tile-blue: #4a90e2;
+  --tile-yellow: #f5a623;
+  --tile-green: #7ed957;
+  --tile-purple: #b36ef6;
+
+  --success: #7ed957;
+  --danger: #e9445a;
+  --score: #9b59b6;
+  --move-bg: #f0f0ff;
+
+  --font-main: "Baloo 2", "Comic Sans MS", system-ui, Arial, sans-serif;
+  font-family: var(--font-main);
+  color: var(--text);
+  background: var(--background);
+}
