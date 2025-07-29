@@ -1,0 +1,19 @@
+@media (max-width: 940px) {
+  .app-main-area { flex-direction: column; padding: 0;}
+  .sidebar-root { margin-right: 0; margin-bottom: 1.5rem; min-width: 0;}
+}
+
+@media (max-width: 690px) {
+  .match-three-board {
+    grid-template-columns: repeat(8, 34px);
+    grid-template-rows: repeat(8, 34px);
+    gap: 3.2px;
+  }
+  .game-board-root { padding: 1.3rem 0.5rem; border-radius: 1.2rem;}
+  .sidebar-root { padding: 1rem 0.7rem 1rem 0.7rem; border-radius: 0.8rem;}
+}
+
+@media (max-width: 520px) {
+  header { font-size: 1.04rem; padding: 0 0.7rem;}
+  .footer { font-size: 0.95rem; }
+}
